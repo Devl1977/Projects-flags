@@ -1,0 +1,11 @@
+.flag-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* reminder that 1fr sets equal-width of columns */
+    gap: 10px; /* reminder that this sdjusts the gap between items */
+}
+
+.grid-item {
+    background-color: #f0f0f0; /* we can change the color later for now we're just messing around */
+    padding: 10px;
+    text-align: center;
+}
