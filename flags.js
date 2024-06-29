@@ -32,8 +32,7 @@ async function getFlagData() {
                divElement.append(countryName)
                divElement.append(countryMaps)
                gridContainer.append(divElement)
-
-               
+                           
 
             }
 
