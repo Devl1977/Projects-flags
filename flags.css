@@ -5,7 +5,54 @@
 }
 
 .grid-item {
-    background-color: #f0f0f0; /* we can change the color later for now we're just messing around */
+    background-color: #e4e4e4; /* we can change the color later for now we're just messing around */
     padding: 10px;
     text-align: center;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;    
 }
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;  
+}
+
+body {
+    background-color: #70a4f1;
+}
+
+.button {
+    
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+.button1:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
