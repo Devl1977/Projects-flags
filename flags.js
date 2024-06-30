@@ -13,9 +13,9 @@ async function getFlagData() {
 
         for (const country in dataWithJson)
             {                                           
-               console.log(dataWithJson[country].flags.png)
+               console.log(dataWithJson[country].flags.png);
                const divElement = document.createElement("div");
-               divElement.setAttribute("class", "grid-item")
+               divElement.setAttribute("class", "grid-item");
                const imageElement = document.createElement("img");
                imageElement.setAttribute("src", dataWithJson[country].flags.png)
                const countryName = document.createElement("p");
@@ -23,10 +23,14 @@ async function getFlagData() {
                const countryMaps = document.createElement("a");
                const maps = document.createTextNode(dataWithJson[country].maps.googleMaps);
                countryMaps.setAttribute("href", dataWithJson[country].maps.googleMaps);
-
+               //adding more to the base ask here:
+               const restOfData = document.createElement("div");
+               restOfData.setAttribute("class", "modal" );
+               
                
                countryName.append(names)
                countryMaps.append(maps)
+               divElement.append(restOfData)
 
                divElement.append(imageElement)
                divElement.append(countryName)
