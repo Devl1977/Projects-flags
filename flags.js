@@ -23,14 +23,16 @@ async function getFlagData() {
                const countryMaps = document.createElement("a");
                const maps = document.createTextNode(dataWithJson[country].maps.googleMaps);
                countryMaps.setAttribute("href", dataWithJson[country].maps.googleMaps);
-               //adding more to the base ask here:
-               const restOfData = document.createElement("div");
-               restOfData.setAttribute("class", "modal" );
-               
+               //was trying to seea bout doing an onclick for the maps here to do a popup (modal):
+               //but it wasn't working for some reason.
+               //const restOfData = document.createElement("div");
+               //restOfData.setAttribute("class", "modal" );
+                              
                
                countryName.append(names)
                countryMaps.append(maps)
-               divElement.append(restOfData)
+               //divElement.append(restOfData)
+               
 
                divElement.append(imageElement)
                divElement.append(countryName)
