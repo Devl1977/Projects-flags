@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flags</title>
+    <script src="flags.js" defer></script>
+    <link rel="stylesheet" href="flags.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Flag Info APP!</h1>
+    <h3> This is an application for country flags.<br>
+        This webpage will display information about countries (flag, name, googlemaplinks) as the main ask.<br>
+        I want to be able to click the flags and use a popup to display the rest of the rest API info<br><br><br>
+        When ready please click the button to load flag data</h3>
+    <div class="container">
+        <div class="center">      
+         
+    <button class="button button1" onclick="getFlagData()">Flag Data</button> 
+        </div>
+    </div>
+    <div id ="container" class="flag-info">
+
+    </div>
+
+<!-- for extra work (trying to implement the onclick for the image to pull up rest of the data
+ from the API) but not sure how to do it-->
+ <!--at first i tried to do an onclick with "modal" but then i thought about making a new div with a button?  But that didn't work either.-->
+
+    <!-- <div id="mypopover" popover>Popover content</div>
+    <button popovertarget="mypopover" popovertargetaction="show">
+        Show popover
+      </button>
+      <button popovertarget="mypopover" popovertargetaction="hide">
+        Hide popover
+      </button> -->
+</body>
+</html>
